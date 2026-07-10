@@ -5,7 +5,7 @@ locale: "en-US"
 title: "isatope.dev"
 title_separator: "-"
 name: "Isabella Garcia"
-description: "Bioinformatics // NGS pipelines, multi-omics, and whatever else"
+description: "Bioinformatics // Multi-omics, NGS pipelines, and computational biology"
 url: "https://isatope.dev"
 repository: izarus-rots/isatope-site
 logo:
