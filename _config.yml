@@ -2,7 +2,7 @@
 # Site settings
 # ---------------------------------------------------------------------------
 locale: "en-US"
-title: "isatope"
+title: "isatope.dev"
 title_separator: "-"
 name: "Isabella Garcia"
 description: "Bioinformatics // NGS pipelines, multi-omics, and whatever else"
