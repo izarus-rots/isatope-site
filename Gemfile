@@ -6,6 +6,8 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 
 gem "jekyll-include-cache"
+gem "csv"
+gem "nokogiri", "~> 1.15.0"
 
 # Only needed if you want to run `bundle exec jekyll serve` locally.
 # If you'd rather skip installing Ruby entirely and just let GitHub build
