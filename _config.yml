@@ -25,9 +25,9 @@ plugins:
 # Author sidebar (shows on every page)
 # ---------------------------------------------------------------------------
 author:
-  name: "Isabella Garcia"
+  name: "Isabella (Isa) Garcia"
   avatar: # add a path like "/assets/images/avatar.jpg" once you have one
-  bio: "Bioinformatics — UC San Diego, B.S. Bioengineering (Bioinformatics)"
+  bio: "Bioinformatics — UC San Diego, B.S. Bioengineering: Bioinformatics"
   location: "San Diego, CA"
   links:
     - label: "GitHub"
