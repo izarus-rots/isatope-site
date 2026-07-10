@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# Site settings
+# ---------------------------------------------------------------------------
+locale: "en-US"
+title: "isatope"
+title_separator: "-"
+name: "Isabella Garcia"
+description: "Bioinformatics // NGS pipelines, multi-omics, and whatever else"
+url: "https://isatope.dev"
+repository: # fill in as "yourusername/isatope-site" once the repo exists
+logo:
+
+# ---------------------------------------------------------------------------
+# Theme — loaded remotely, no forking required
+# ---------------------------------------------------------------------------
+theme: null
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # try "dirt", "neon", "contrast", or "mint" any time — one-line change
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# ---------------------------------------------------------------------------
+# Author sidebar (shows on every page)
+# ---------------------------------------------------------------------------
+author:
+  name: "Isabella Garcia"
+  avatar: # add a path like "/assets/images/avatar.jpg" once you have one
+  bio: "Bioinformatics — UC San Diego, B.S. Bioengineering (Bioinformatics)"
+  location: "San Diego, CA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/izarus-rots"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/isabella-v-g/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:isabella.v.garcia2004@gmail.com"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/izarus-rots"
+
+# ---------------------------------------------------------------------------
+# Default layout for every page (Minimal Mistakes convention)
+# ---------------------------------------------------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
+# ---------------------------------------------------------------------------
+# Build settings
+# ---------------------------------------------------------------------------
+markdown: kramdown
+include:
+  - _pages
+exclude:
+  - README.md
