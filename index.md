@@ -6,10 +6,11 @@ title: "isatope.dev"
 
 <details>
   <summary>why "isatope"?</summary>
-  <p>
+  <p style="margin-left: 40px;">
   I go by the name Isa, so I typically use aliases replacing the "iso-" prefix
   of words with "isa-". Some other options included "isaleucine," "isamer," and
   "isamerase." What do you think I should have went with?
+    <hr />
   </p>
 </details>
 
