@@ -27,7 +27,7 @@ plugins:
 author:
   name: "Isabella (Isa) Garcia"
   avatar: # add a path like "/assets/images/avatar.jpg" once you have one
-  bio: "Bioinformatics — UC San Diego, B.S. Bioengineering: Bioinformatics"
+  bio: "UC San Diego, B.S. Bioengineering: Bioinformatics '26"
   location: "San Diego, CA"
   links:
     - label: "GitHub"
@@ -44,7 +44,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/izarus-rots"
+      url: "https://github.com/izarus-rots/isatope-site"
 
 # ---------------------------------------------------------------------------
 # Default layout for every page (Minimal Mistakes convention)
