@@ -26,7 +26,7 @@ plugins:
 # ---------------------------------------------------------------------------
 author:
   name: "Isabella (Isa) Garcia"
-  avatar: # add a path like "/assets/images/avatar.jpg" once you have one
+  avatar: "/assets/files/GtechHEadshots-010-3.jpg"
   bio: "UC San Diego, B.S. Bioengineering: Bioinformatics '26"
   location: "San Diego, CA"
   links:
