@@ -4,7 +4,7 @@ permalink: /resume/
 title: "Resume"
 ---
 
-[Download my resume (PDF)](/assets/files/resume.pdf){: .btn .btn--primary}
+[Download my resume (PDF)](/assets/files/Isabella Garcia Resume.pdf){: .btn .btn--primary}
 
 
 **B.S. Bioengineering, Bioinformatics** — UC San Diego
