@@ -4,3 +4,20 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
+
+/* Center the sidebar author avatar instead of the theme default left-align,
+   and size it up now that centering leaves more visible margin */
+.author__avatar {
+  text-align: center;
+}
+.author__avatar img {
+  display: block;
+  margin: 0 auto;
+  max-width: 160px;
+}
+
+/* Theme fades the whole sidebar to 75% opacity until hovered, which reads as
+   a gray filter over the avatar photo in a static view — keep it fully opaque */
+.sidebar {
+  opacity: 1;
+}
