@@ -21,3 +21,85 @@
 .sidebar {
   opacity: 1;
 }
+
+/* Resume page: real HTML content transcribed from the LaTeX source, styled
+   to echo that layout (small-caps rule-underlined section headers, a
+   right-aligned date on each entry) instead of embedding the PDF — browsers
+   don't reliably render inline <object>/<embed> PDFs, so this is the robust
+   alternative. Keep in sync with resume.tex by hand when that file changes. */
+.resume {
+  max-width: 700px;
+}
+
+.resume__head {
+  text-align: center;
+  margin-bottom: 1.5em;
+
+  h2 {
+    margin: 0 0 0.3em;
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+}
+
+.resume__section {
+  margin-bottom: 1.5em;
+
+  h3 {
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 0.2em;
+    margin-bottom: 0.6em;
+  }
+}
+
+.resume__row-main,
+.resume__row-sub {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.resume__row-sub {
+  margin-bottom: 0.4em;
+}
+
+.resume__row-date {
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+.resume__skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.2em 1em;
+  font-size: 0.95em;
+}
+
+.resume__list {
+  margin: 0 0 0.8em;
+  padding-left: 1.2em;
+
+  li {
+    margin-bottom: 0.3em;
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 600px) {
+  .resume__row-main,
+  .resume__row-sub {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .resume__skills {
+    grid-template-columns: 1fr;
+  }
+}
