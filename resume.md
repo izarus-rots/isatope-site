@@ -9,7 +9,7 @@ title: "Resume"
 <div class="resume">
   <header class="resume__head">
     <h2>Isabella V. Garcia</h2>
-    <p>(510) 634-3858 &middot; <a href="mailto:isabella.v.garcia2004@gmail.com">isabella.v.garcia2004@gmail.com</a> &middot; San Diego, California &middot; <a href="https://isatope.dev">isatope.dev</a></p>
+    <p>(510) 634-3858 &middot; <a href="mailto:i4garcia@ucsd.edu">i4garcia@ucsd.edu</a> &middot; San Diego, California &middot; <a href="https://isatope.dev">isatope.dev</a></p>
   </header>
 
   <section class="resume__section">

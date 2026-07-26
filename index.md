@@ -19,6 +19,6 @@ Bioinformatics) working across metabolomics, proteomics, NGS, and various
 computational problems.
 
 Right now I'm based in San Diego, job hunting in bioinformatics/genomics, and
-building out a few projects to round out my NGS experience. Take a look at
-[projects](/projects/), grab my [resume](/resume/), or wander into [the
-lab](/lab/) if you want to check out my personal work.
+building out projects in NGS analysis and multi-omics. Grab my
+[resume](/resume/), or wander into [the lab](/lab/) if you want to check out
+my personal work.
