@@ -46,8 +46,8 @@ title: "Resume"
       <em class="resume__row-date">La Jolla, CA</em>
     </div>
     <ul class="resume__list">
-      <li>Built machine learning software in Python with a team of 2 under Dr. Max Qian to classify leukemia and predict patient outcomes from flow cytometry data</li>
-      <li>Applied feature selection and classification modeling to high-dimensional data (16 parameters across 288 patient samples), evaluating model performance against clinical outcome labels</li>
+      <li>Built machine learning software in Python on a two-person team under Dr. Max Qian to classify leukemia and predict patient outcomes from flow cytometry data</li>
+      <li>Applied feature selection and classification modeling across 16 parameters and 288 patient samples, evaluating model performance against clinical outcome labels</li>
       <li>Synthesized an extensive literature review and reported findings to the group weekly in formal written reports</li>
       <li>Authored the project's analysis of ethics, safety, design considerations, and engineering standards</li>
     </ul>
