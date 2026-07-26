@@ -27,7 +27,7 @@ title: "Resume"
   <section class="resume__section">
     <h3>Skills</h3>
     <div class="resume__skills-table">
-      <div><strong>Languages</strong></div><div>Python, R, bash, SQL, Java, C++</div>
+      <div><strong>Languages</strong></div><div>Python, R, bash, Java, C++</div>
       <div><strong>Bioinformatics</strong></div><div>NGS sequence analysis, sequence alignment, genome assembly &amp; annotation, biological database design &amp; querying, public repositories (NCBI, Ensembl)</div>
       <div><strong>Data &amp; ML</strong></div><div>Machine learning (classification, feature selection), statistical &amp; comparative analysis, data visualization; pandas, NumPy, scikit-learn</div>
       <div><strong>Systems</strong></div><div>Unix/Linux, HPC &amp; remote development, pipeline development, Git/GitHub</div>
@@ -78,7 +78,7 @@ title: "Resume"
     <h3>Relevant Coursework</h3>
     <ul class="resume__list">
       <li><strong>BENG 181 &mdash; Molecular Sequence Analysis:</strong> sequence alignment, dynamic programming, HMMs, phylogenetics</li>
-      <li><strong>BENG 182 &mdash; Biological Databases:</strong> schema design, SQL, curating and integrating public genomic data</li>
+      <li><strong>BENG 182 &mdash; Biological Databases:</strong> schema design, curating and integrating public genomic data</li>
       <li><strong>BENG 183 &mdash; Applied Genomic Technologies:</strong> sequencing platforms, read mapping, RNA-seq, functional genomics</li>
       <li><strong>CSE 151A &mdash; Machine Learning:</strong> supervised/unsupervised learning, model selection, regularization, evaluation</li>
       <li><strong>CSE 185 &mdash; Advanced Bioinformatics Lab:</strong> genome assembly, variant calling, analysis pipelines on Unix/HPC</li>
