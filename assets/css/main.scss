@@ -26,7 +26,8 @@
    to echo that layout (small-caps rule-underlined section headers, a
    right-aligned date on each entry) instead of embedding the PDF — browsers
    don't reliably render inline <object>/<embed> PDFs, so this is the robust
-   alternative. Keep in sync with resume.tex by hand when that file changes. */
+   alternative. Keep in sync with resume_jcvi_public.tex (in the isa/resume
+   repo) by hand when that file changes. */
 .resume {
   max-width: 700px;
 }
@@ -75,10 +76,10 @@
   font-weight: normal;
 }
 
-.resume__skills {
+.resume__skills-table {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.2em 1em;
+  grid-template-columns: 140px 1fr;
+  gap: 0.4em 1em;
   font-size: 0.95em;
 }
 
@@ -99,7 +100,12 @@
     gap: 0;
   }
 
-  .resume__skills {
+  .resume__skills-table {
     grid-template-columns: 1fr;
+    gap: 0.1em 0;
+
+    div:nth-child(odd) {
+      margin-top: 0.5em;
+    }
   }
 }
